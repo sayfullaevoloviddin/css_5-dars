@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../file/Poppins/poppins-v5-latin_devanagari-regular.WOFF") format("woff"),
+url("../file/Poppins/poppins-v5-latin_devanagari-regular.woff2") format("woff2");
+}
+body{
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic ;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    position: relative;
+
+}
+.main-menu-item{
+    position: relative;
+    list-style: none; /* List-style; none; => ul/li teglarining nuqtalarini olib tashlaydi */
+    display: inline-block;
+
+}
+.main-menu-item a{
+    text-decoration: none;
+    color: #808080;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.main-menu-item:hover a{
+    background-color: royalblue;
+    color: #ffffff;
+}
+.sub-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    display: none;
+}
+.sub-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 15px 15px;
+    position: relative;
+
+}
+.sub-menu-item:hover{
+    color: white;
+    background-color: rgba(65,185,225,0.6);
+}
+.main-menu-item:hover > .sub-menu{
+    display: none;
+    z-index: 1;
+}
+.sub-menu-item > .sub-menu{
+    left: 100%;
+    top: 0;
+}
+.sub-menu-item:hover .sub-menu{
+    display: block;
+}
+.fix{
+    position: fixed;;
+    top: 200px;
+    left: 20%;
+    height: 150px;
+    width: 100px;
+    background-color: #808080;
+}
+.sticky{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: indianred;
+}
+.absolute{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.main-menu-item:before{
+    position: absolute;
+    content: '';
+    border: 20px solid transparent;
+    border-top-color: royalblue;
+    bottom: -40px;
+    left: 25%;
+}

@@ -1,0 +1,190 @@
+.wrap{
+    width: 1200px;
+    background-color: lightgrey;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap3{
+    width: 1200px;
+    background-color: lightgrey;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+.a{
+    color: red;
+    margin-left: 10px;
+}
+.b{
+    color: white;
+}
+p{
+    margin-left: 10px;
+}
+.main-1{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 70%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+.main-menu-item-1{
+    display: inline-block;
+    width:70%;
+    height: 180px;
+}
+.main-2{
+    top: 15px;
+    background-color: white;
+    width: 20%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    vertical-align: center;
+    margin-top: -10px;
+    position: absolute;
+}
+.main-menu-item-2{
+    width: 20%;
+    height: 180px;
+    margin-left: 640px;
+    margin-top: -150px;
+    vertical-align: center;
+    background-image: url("../rasmlar/11.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+
+}
+.main-menu-item-3{
+    text-align: center;
+    vertical-align: center;
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.main-1:after{
+    content: '';
+    border: 30px solid white;
+    border-bottom-color: lightgrey;
+    border-right-color: lightgrey;
+    border-top-color: lightgrey;
+    position: absolute;
+    left: 840px;
+    bottom: 60px;
+}
+.ab{
+    color: dodgerblue;
+}
+
+
+.wrap2{
+    width: 1200px;
+    background-color: lightgrey;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-3{
+    top: 15px;
+    background-color: white;
+    width: 20%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: -15px;
+    position: absolute;
+}
+.main-menu-item-4{
+text-align: center;
+vertical-align: center;
+background-color: orange;
+margin-left: 20px;
+margin-right: 20px;
+padding-bottom: 20px;
+}
+.main-4{
+    vertical-align:center;
+    width: 70%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    margin-left: 322px;
+    background-color: white;
+    position: relative;
+}
+.main-4:after{
+    position: absolute;
+    content: '';
+    border: 30px solid white;
+    border-bottom-color: lightgrey;
+    border-left-color: lightgrey;
+    border-top-color: lightgrey;
+    margin-left: -60px;
+    margin-top: -125px;
+}
+.e{
+    color: dodgerblue;
+}
+.main-menu-item-7{
+    background-color: dodgerblue;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.g{
+    color: orange;
+}
+.h{
+    color: darkgreen;
+}
+.main-menu-item-8{
+    background-color: darkgreen;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.main-menu-item-10{
+    height: 180px;
+    margin-left: 660px;
+    margin-top: -150px;
+    vertical-align: center;
+    background-image: url("../rasmlar/33.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+.main-menu-item-5{
+    background-size: 100px;
+    height: 180px;
+    margin-top: 25px;
+    margin-left: 35px;
+    vertical-align: center;
+    background-image: url("../rasmlar/5.png");
+    background-repeat: no-repeat;
+}
+.main-menu-item-6{
+    margin-left: 200px;
+    margin-top: -200px;
+    vertical-align: center;
+}
+.main-menu-item-11{
+    background-size: 100px;
+    height: 180px;
+    vertical-align: center;
+    background-image: url("../rasmlar/44.png");
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 35px;
+}
